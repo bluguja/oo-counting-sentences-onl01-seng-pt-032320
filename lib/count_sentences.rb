@@ -1,13 +1,9 @@
-require 'pry'
+#require 'pry'
 
 class String
 
   def sentence?
-    selff.end_with?(".")
-  end
-
-  def question?
-
+    self.
   end
 
   def exclamation?
