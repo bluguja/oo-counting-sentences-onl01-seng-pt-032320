@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 
 class String
 
@@ -16,5 +16,6 @@ def question?
 
   def count_sentences
     self.split(/[.!?]/).reject {|x| x.empty?}.size
+    binding.pry
   end
 end
