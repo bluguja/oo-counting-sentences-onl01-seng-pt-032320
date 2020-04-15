@@ -15,7 +15,7 @@ def question?
   end
 
   def count_sentences
-    self.split(/[.!?]/).reject {|x| x.empty?}.size
+    self.split(/[.!?]/).reject {|x| x.empty?}.size# using regex to sift through for .,! and ?
     binding.pry
   end
 end
