@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 class String
 
@@ -16,7 +16,7 @@ def question?
 
   def count_sentences
     self.split(/[.!?]/).reject do |x| x.empty?.size # using regex to sift through for .,! and ?
-    binding.pry
+    #binding.pry
     end
   end
 end
