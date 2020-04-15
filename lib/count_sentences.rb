@@ -3,7 +3,7 @@
 class String
 
   def sentence?
-    self.
+    self.end_with?(".")
   end
 
   def exclamation?
